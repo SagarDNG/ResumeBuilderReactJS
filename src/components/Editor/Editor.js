@@ -205,7 +205,7 @@ function Editor(props) {
         <InputControl
           label="Title"
           value={values.title}
-          placeholder="Enter title eg. Chat app"
+          placeholder="Enter title of your Projecct"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, title: event.target.value }))
           }
@@ -222,6 +222,7 @@ function Editor(props) {
       <div className={styles.row}>
         <InputControl
           label="Deployed Link"
+          type="link"
           value={values.link}
           placeholder="Enter deployed link of project"
           onChange={(event) =>
@@ -230,6 +231,7 @@ function Editor(props) {
         />
         <InputControl
           label="Github Link"
+          type="link"
           value={values.github}
           placeholder="Enter github link of project"
           onChange={(event) =>
@@ -268,7 +270,7 @@ function Editor(props) {
         <InputControl
           label="Title"
           value={values.title}
-          placeholder="Enter title eg. B-tech"
+          placeholder="Enter title eg. SSLC / PUC / B-tech"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, title: event.target.value }))
           }
@@ -308,7 +310,7 @@ function Editor(props) {
   const achievementsBody = (
     <div className={styles.detail}>
       <div className={styles.column}>
-        <label>List your achievements</label>
+        <label>List your Achievements</label>
         <InputControl
           placeholder="Line 1"
           value={values.points ? values.points[0] : ""}
@@ -337,7 +339,7 @@ function Editor(props) {
       <InputControl
         label="Summary"
         value={values.summary}
-        placeholder="Enter your objective/summary"
+        placeholder="Enter your objective / summary"
         onChange={(event) =>
           setValues((prev) => ({ ...prev, summary: event.target.value }))
         }
