@@ -277,7 +277,7 @@ function Editor(props) {
         />
       </div>
       <InputControl
-        label="College/School Name"
+        label="College / School Name"
         value={values.college}
         placeholder="Enter name of your college/school"
         onChange={(event) =>
@@ -330,6 +330,36 @@ function Editor(props) {
           placeholder="Line 4"
           value={values.points ? values.points[3] : ""}
           onChange={(event) => handlePointUpdate(event.target.value, 3)}
+        />
+        <InputControl
+          placeholder="Line 5"
+          value={values.points ? values.points[4] : ""}
+          onChange={(event) => handlePointUpdate(event.target.value, 4)}
+        />
+        <InputControl
+          placeholder="Line 6"
+          value={values.points ? values.points[5] : ""}
+          onChange={(event) => handlePointUpdate(event.target.value, 5)}
+        />
+        <InputControl
+          placeholder="Line 7"
+          value={values.points ? values.points[6] : ""}
+          onChange={(event) => handlePointUpdate(event.target.value, 6)}
+        />
+        <InputControl
+          placeholder="Line 8"
+          value={values.points ? values.points[7] : ""}
+          onChange={(event) => handlePointUpdate(event.target.value, 7)}
+        />
+        <InputControl
+          placeholder="Line 9"
+          value={values.points ? values.points[8] : ""}
+          onChange={(event) => handlePointUpdate(event.target.value, 8)}
+        />
+        <InputControl
+          placeholder="Line 10"
+          value={values.points ? values.points[9] : ""}
+          onChange={(event) => handlePointUpdate(event.target.value, 9)}
         />
       </div>
     </div>

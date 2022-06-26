@@ -120,6 +120,7 @@
   font-size: 0.75rem;
   cursor: pointer;
   color: var(--color);
+  text-decoration: none;
 }
 
 .content .link svg {
