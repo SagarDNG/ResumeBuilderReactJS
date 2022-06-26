@@ -71,9 +71,11 @@
   .toolbar {
     flex-direction: column;
   }
+}
 
+@media screen and (max-width: 400px) {
   .colors .color {
-    height: 28px;
-    width: 28px;
+    height: 20px;
+    width: 20px;
   }
 }

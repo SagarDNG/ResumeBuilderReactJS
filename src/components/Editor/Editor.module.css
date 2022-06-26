@@ -138,9 +138,15 @@
   .detail .row {
     flex-direction: column;
   }
+}
 
+@media screen and (max-width: 400px) {
   .container {
     width: 10%;
-    min-width: 400px;
+    min-width: 300px;
+  }
+
+  .body {
+    padding: 20px;
   }
 }
