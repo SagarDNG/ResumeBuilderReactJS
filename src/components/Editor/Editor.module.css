@@ -59,12 +59,14 @@
   display: flex;
   gap: 20px;
 }
+
 .detail .column {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.detail .row > div {
+
+.detail .row>div {
   flex: 1;
 }
 
@@ -97,6 +99,7 @@
   line-height: 1.25rem;
   color: #fff;
 }
+
 .chip svg {
   color: #fff;
   height: 18px;
