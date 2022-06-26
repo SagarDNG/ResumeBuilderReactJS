@@ -63,6 +63,7 @@
   flex-direction: column;
   gap: 20px;
 }
+
 .col2 {
   flex: 1;
   display: flex;
@@ -83,6 +84,7 @@
   gap: 10px;
   padding: 10px 0;
 }
+
 .section .content .item {
   border-bottom: 1px dotted lightgray;
   display: flex;
@@ -90,6 +92,7 @@
   gap: 4px;
   padding-bottom: 10px;
 }
+
 .section .content .item:last-child {
   border-bottom: none;
 }
@@ -117,6 +120,7 @@
   cursor: pointer;
   color: var(--color);
 }
+
 .content .link svg {
   height: 14px;
   width: 14px;
@@ -147,4 +151,11 @@
 
 .hidden {
   display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 10%;
+    min-width: 400px;
+  }
 }

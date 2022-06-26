@@ -132,3 +132,14 @@
 .body button:active {
   transform: translateY(2px);
 }
+
+@media screen and (max-width: 1000px) {
+  .detail .row {
+    flex-direction: column;
+  }
+
+  .container {
+    width: 10%;
+    min-width: 400px;
+  }
+}
