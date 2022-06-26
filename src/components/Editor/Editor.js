@@ -28,7 +28,7 @@ function Editor(props) {
     codepen: activeInformation?.detail?.codepen || "",
     phone: activeInformation?.detail?.phone || "",
     email: activeInformation?.detail?.email || "",
-  });
+  })
 
   const handlePointUpdate = (value, index) => {
     const tempValues = { ...values };
