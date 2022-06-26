@@ -11,6 +11,7 @@
   flex-direction: column;
   gap: 30px;
   padding: 30px;
+  background-color: #fff;
 }
 
 .header {
