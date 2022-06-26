@@ -29,3 +29,10 @@
 .right img {
   width: 400px;
 }
+
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+
+}
